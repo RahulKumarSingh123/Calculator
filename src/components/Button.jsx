@@ -1,10 +1,14 @@
 import "../css/Button.css"
 
-export default function Button({name,handleClick}){
-    function updatescreen(){
+export default function Button({ name, handleClick, equals }) {
+    function updatescreen() {
         handleClick(name);
     }
-    return(
-        <button onClick={handleClick}>{name}</button>
+    let id = {
+        true: "back",
+        false: "fore",
+    }
+    return (
+        <button id={id[equals]} onClick={updatescreen}>{name}</button>
     )
 }

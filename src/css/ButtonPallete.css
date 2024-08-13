@@ -6,10 +6,11 @@
 #pallete {
     display: flex;
     flex-direction: column;
-    height: 75vh;
+    height: 65vh;
     gap: 10px;
     width: 100%;
     flex-wrap: nowrap;
+    margin-bottom: 50px;
 }
 
 #row {

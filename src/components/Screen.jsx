@@ -1,9 +1,9 @@
 import "../css/Screen.css"
 
-export default function Screen({content}){
+export default function Screen({display}){
+    
     return(
-        <div id="screen">
-            {content}
-        </div>
+        <textarea id="screen" value={display}>
+        </textarea>
     )
 }

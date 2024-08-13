@@ -1,5 +1,11 @@
 #screen {
-    height: 20vh;
-    width: 100%;
+    max-height: 20vh;
+    max-width: 100%;
     padding: 4%;
+    text-align: right;
+    color: orangered;
+    font-size: 4rem;
+    font-weight: 400;
+    background-color: rgb(0, 0, 0);
+    border: none;
 }
